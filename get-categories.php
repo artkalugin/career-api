@@ -2,9 +2,12 @@
 
 header("Content-Type:application/json");
 
-$url = "https://xn--80adjbxl0aeb4ii6a.xn--p1ai/api/create-vacancy/";
+$url = "https://xn--80adjbxl0aeb4ii6a.xn--p1ai/api/categories/";
 
 $post_fields = array(
+    "client_id" => 8,
+    "client_secret" => "2f3e7d16066c1ffaabc9e190",
+    "access_token" => "B9215903ED3C4493D3008C7B2F645732"
 );
 
 $result = http_build_query($post_fields);
