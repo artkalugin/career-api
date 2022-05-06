@@ -2,7 +2,7 @@
 
 header("Content-Type:application/json");
 
-$url = "https://xn--80adjbxl0aeb4ii6a.xn--p1ai/api/categories/";
+$url = "https://xn--80adjbxl0aeb4ii6a.xn--p1ai/api/areas/";
 
 $post_fields = array(
     "client_id" => 8,

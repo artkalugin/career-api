@@ -2,12 +2,15 @@
 
 header("Content-Type:application/json");
 
-$url = "https://xn--80adjbxl0aeb4ii6a.xn--p1ai/api/categories/";
+$url = "https://xn--80adjbxl0aeb4ii6a.xn--p1ai/api/auth/update-token/";
 
 $post_fields = array(
     "client_id" => 8,
     "client_secret" => "2f3e7d16066c1ffaabc9e190",
-    "access_token" => "8E12EE15A2CFAB0F44B236AF78B8FED8"
+    "access_token" => "B9215903ED3C4493D3008C7B2F645732",
+    "grant_type" => "refresh_token",
+    "access_token" => "B9215903ED3C4493D3008C7B2F645732",
+    "refresh_token" => "AE4B7FE32C705660E7F7FABF051B0EB2"
 );
 
 $result = http_build_query($post_fields);
